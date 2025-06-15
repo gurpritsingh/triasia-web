@@ -2,14 +2,14 @@
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 
 const menuitems = [
-  { href: '/about', label: 'About us' },
+  { href: '/about', label: 'About Us' },
   { href: '/#services', label: 'Services' },
   { href: '/#cases', label: 'Use Cases' },
   // { href: '/pricing', label: 'Pricing' },
   // { href: '/articles', label: 'Blog'},
 ];
 
-const navButton = { href: 'mailto:triasiaglobal@global.com', label: 'Request a quote' };
+const navButton = { href: 'mailto:triasiaglobal@gmail.com', label: 'Request a quote' };
 ---
 
 <div class="mt-20">
@@ -18,7 +18,7 @@ const navButton = { href: 'mailto:triasiaglobal@global.com', label: 'Request a q
       <Astronav>
         <div class="flex w-full lg:w-auto items-center justify-between">
           <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="/Logo.svg" class="h-8" alt="Logo" />
+            <img src="/triasialogo.svg" class="w-64" alt="Logo" /z>
           </a>
           <div class="block lg:hidden">
             <div id="menu-icon" class="w-8 h-8 text-black cursor-pointer">
@@ -35,7 +35,7 @@ const navButton = { href: 'mailto:triasiaglobal@global.com', label: 'Request a q
         </div>
         
         <nav class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0" id="menu-items">
-          <ul class="font-medium flex flex-col p-4 lg:p-0 mt-4 border rounded-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0">
+          <ul class="font-medium text-xl flex flex-col p-4 lg:p-0 mt-4 border rounded-lg lg:flex-row lg:space-x-8 lg:mt-0 lg:border-0">
             {menuitems.map((item, index) => (
               <li>
                 <a 
