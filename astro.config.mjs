@@ -3,8 +3,8 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ai.triasiaglobal.com",
-  base: "https://ai.triasiaglobal.com",
+  // site: "https://ai.triasiaglobal.com",
+  base: "",
   integrations: [tailwind()],
   output: 'static',
 });
